@@ -33,7 +33,7 @@ trendyol/
 
 ## Features
 
-- Scrapes product name, price, image URL, and ratings
+- Scrapes product name, old price, price, image URL, product URL, product details and rating
 - Saves outputs into structured `.csv` files
 - Automates web interaction to add an item to cart
 - Headless browser support (optional)
@@ -84,11 +84,7 @@ You can modify the product URL inside `add-to-cart.py`.
 
 Each CSV file contains:
 
-| Name                    | Price | Rating | Image URL                            |
-|-------------------------|-------|--------|--------------------------------------|
-| "Shirt - BrandX"        | 199.99| 4.5    | https://...                          |
-| "Lipstick - BrandY"     | 89.99 | 4.2    | https://...                          |
-
+![output](https://github.com/rewaaalaa7/Trendyol-Scraper/blob/master/sample-output.jpg)
 ---
 
 ## Notes
